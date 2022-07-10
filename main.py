@@ -1,21 +1,22 @@
 import matplotlib.pyplot as plt
 
-# списки на основе которых - будет строиться график
-x = [1, 2, 3, 4]
+### need a hepl spend to    https://matplotlib.org/stable/api/_as_gen/matplotlib.lines.Line2D.html
+
+# basic for graphic = [1, 2, 3, 4]
 y = [2, 5, 0.5, 9]
 
-# заголовок, толщина шрифта, цвет
+# title, weight, font, color
 plt.title("Линейный график", fontsize=16, fontweight='bold', color='b')
 
-# называем оси
+# name of axis
 plt.xlabel('Значение X', fontsize=9, color='black')
 plt.ylabel('Значение У', fontsize=9, color='black')
 
-# строим линейный график по списку Х и У
-plt.plot(x, y)
+# make graphic by list X and Y
+plt.plot(x, y, label='График №1', lw=4)
 
-# добавляем сетку
+# append grid
 plt.grid()
 
-# отображаем график
+# show graphic
 plt.show()
