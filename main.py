@@ -1,8 +1,9 @@
 import matplotlib.pyplot as plt
 
-### need a hepl spend to    https://matplotlib.org/stable/api/_as_gen/matplotlib.lines.Line2D.html
+### need a help spend to    https://matplotlib.org/stable/api/_as_gen/matplotlib.lines.Line2D.html
 
-# basic for graphic = [1, 2, 3, 4]
+# basic for graphic
+x = [1, 2, 3, 4]
 y = [2, 5, 0.5, 9]
 
 # title, weight, font, color
